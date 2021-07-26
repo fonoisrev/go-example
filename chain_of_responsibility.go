@@ -1,5 +1,7 @@
 package main
 
+// 函数式实现的一个责任链模式
+
 type Handler func(string) (string, bool)
 
 func MemoryGetValue(key string) (string, bool) {
